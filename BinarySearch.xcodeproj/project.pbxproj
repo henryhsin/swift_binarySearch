@@ -14,6 +14,8 @@
 		C0A1DF201FA240F5005575C5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A1DF1E1FA240F5005575C5 /* LaunchScreen.storyboard */; };
 		C0A1DF2B1FA240F5005575C5 /* BinarySearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1DF2A1FA240F5005575C5 /* BinarySearchTests.swift */; };
 		C0A1DF361FA240F5005575C5 /* BinarySearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1DF351FA240F5005575C5 /* BinarySearchUITests.swift */; };
+		C0A1DF441FA24141005575C5 /* BinaryTree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1DF431FA24141005575C5 /* BinaryTree.swift */; };
+		C0A1DF481FA24572005575C5 /* ATree.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0A1DF471FA24572005575C5 /* ATree.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		C0A1DF311FA240F5005575C5 /* BinarySearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BinarySearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0A1DF351FA240F5005575C5 /* BinarySearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinarySearchUITests.swift; sourceTree = "<group>"; };
 		C0A1DF371FA240F5005575C5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0A1DF431FA24141005575C5 /* BinaryTree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryTree.swift; sourceTree = "<group>"; };
+		C0A1DF471FA24572005575C5 /* ATree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ATree.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				C0A1DF151FA240F5005575C5 /* AppDelegate.swift */,
 				C0A1DF171FA240F5005575C5 /* ViewController.swift */,
+				C0A1DF431FA24141005575C5 /* BinaryTree.swift */,
+				C0A1DF471FA24572005575C5 /* ATree.swift */,
 				C0A1DF191FA240F5005575C5 /* Main.storyboard */,
 				C0A1DF1C1FA240F5005575C5 /* Assets.xcassets */,
 				C0A1DF1E1FA240F5005575C5 /* LaunchScreen.storyboard */,
@@ -261,6 +267,8 @@
 			files = (
 				C0A1DF181FA240F5005575C5 /* ViewController.swift in Sources */,
 				C0A1DF161FA240F5005575C5 /* AppDelegate.swift in Sources */,
+				C0A1DF441FA24141005575C5 /* BinaryTree.swift in Sources */,
+				C0A1DF481FA24572005575C5 /* ATree.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
